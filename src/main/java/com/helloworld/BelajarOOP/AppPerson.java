@@ -10,9 +10,12 @@ public class AppPerson {
 
         person.name = "Ika";
         person.address = "Pky";
+        // person.country = "Tidak Bisa Diubah"
 
         System.out.println(person.name);
         System.out.println(person.address);
         System.out.println(person.country);
+
+        person.sayHello("Tania");
     }
 }
