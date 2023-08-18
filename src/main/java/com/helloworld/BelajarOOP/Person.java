@@ -6,8 +6,16 @@ public class Person {
     final String country = "Indonesia";
 
     Person(String paramName, String paramAddress) {
-        name = paramName;
-        address = paramAddress;
+        this.name = paramName;
+        this.address = paramAddress;
+    }
+
+    Person(String paramName) {
+        this(paramName, null);
+    }
+
+    Person() {
+        this(null);
     }
 
     void sayHello(String paramName) {
